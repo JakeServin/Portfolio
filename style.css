@@ -1,0 +1,66 @@
+* {
+    font-family: 'Roboto';
+    font-weight: 300;
+}
+.homeWrapper {
+    padding: 4% 3% 100px 15%;
+}
+
+.aboutWrapper {
+    padding-left:1.5rem;
+}
+
+.headshot {
+    image-rendering: auto;
+    width: 32%;
+    border-radius: 400px;
+}
+
+.aboutContent {
+    display:flex;
+    align-items: center;
+    margin-left:10%;
+    margin-right: 10%;
+    padding-bottom: 20px;
+}
+
+.aboutText {
+    margin-left: 5%;
+    width: 70%;
+}
+
+.skillsWrapper {
+    padding-left: 1.5rem;
+    padding-right: 20px;
+    padding-top: 10px;
+}
+
+svg {
+    width:auto;
+    max-width: 64px;
+    fill: rgb(135,149,118);
+}
+
+.skills {
+    display:flex;
+    justify-content: center;
+
+}
+.icons {
+    min-width: 350px;
+    width: 70%;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center
+}
+
+.projectContainer {
+    border-radius: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 30px;
+    margin-right: 5%;
+    padding: 30px 5% 30px 30px;
+    background-color: whitesmoke;
+}
