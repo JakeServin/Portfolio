@@ -1,66 +1,63 @@
 * {
-    font-family: 'Roboto';
-    font-weight: 300;
-}
-.homeWrapper {
-    padding: 4% 3% 100px 15%;
+    font-size: .95rem 
 }
 
-.aboutWrapper {
-    padding-left:1.5rem;
+body > * {
+    font-family: 'Roboto', serif;
+    font-weight: 300;
+}
+
+.aboutText > p {
+    font-family: 'Space Mono', monospace;
+}
+.projectAbout {
+    font-family: "Space Mono", monospace;
+}
+.homeWrapper {
+    padding-top: 16.8%;
+    padding-bottom: 16.8%;
+    
 }
 
 .headshot {
-    image-rendering: auto;
-    width: 32%;
     border-radius: 400px;
-}
-
-.aboutContent {
-    display:flex;
-    align-items: center;
-    margin-left:10%;
-    margin-right: 10%;
-    padding-bottom: 20px;
-}
-
-.aboutText {
-    margin-left: 5%;
-    width: 70%;
-}
-
-.skillsWrapper {
-    padding-left: 1.5rem;
-    padding-right: 20px;
-    padding-top: 10px;
+    height: auto;
 }
 
 svg {
+    height: 64px;
     width:auto;
     max-width: 64px;
     fill: rgb(135,149,118);
 }
 
-.skills {
-    display:flex;
-    justify-content: center;
+.icons > * > p{
+    font-size: 1.25rem;
+    font-weight: 300;
+}
 
+
+.nodeIcon {
+    font-family: "Roboto";
 }
 .icons {
-    min-width: 350px;
+    /* min-width: 350px;
     width: 70%;
     display:flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    align-items: center
+    align-items: center */
+}
+#title {
+    font-size: 6rem;
 }
 
 .projectContainer {
     border-radius: 40px;
-    display: flex;
+    /* display: flex;
     justify-content: space-evenly;
     margin-bottom: 30px;
-    margin-right: 5%;
-    padding: 30px 5% 30px 30px;
+    margin-right: 5%; */
+    padding: 30px 5% 30px 30px; 
     background-color: whitesmoke;
 }
