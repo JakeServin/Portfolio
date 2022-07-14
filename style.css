@@ -7,6 +7,10 @@ body > * {
     font-weight: 300;
 }
 
+.nav-item {
+    font-size: larger;
+}
+
 .aboutText > p {
     font-family: 'Space Mono', monospace;
 }
