@@ -26,6 +26,7 @@ body > * {
 .headshot {
     border-radius: 400px;
     height: auto;
+    max-width: 350px;
 }
 
 svg {
@@ -53,7 +54,7 @@ svg {
     align-items: center */
 }
 #title {
-    font-size: 6rem;
+    font-size: 5rem;
 }
 
 .projectContainer {
