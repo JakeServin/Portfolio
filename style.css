@@ -7,6 +7,10 @@ body > * {
     font-weight: 300;
 }
 
+p {
+    font-size: 1rem;
+}
+
 .nav-item {
     font-size: 1.25rem;
     letter-spacing: 1px;
