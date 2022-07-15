@@ -23,6 +23,15 @@ body > * {
     padding-bottom: 16.8%;
     
 }
+#subtitle span{
+    font-size: 24px; 
+    letter-spacing: 2px;
+    color: #0563bb;
+    font-weight: bolder;
+}
+#subtitle {
+    font-size: 24px;
+}
 
 .headshot {
     border-radius: 400px;
@@ -77,9 +86,6 @@ svg {
     #title {
     font-size: 3rem;
     }
-    #subtitle {
-        font-size: 1.25rem;
-    }
-    .projectImage
+    
 
 }
