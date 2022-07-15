@@ -9,6 +9,7 @@ body > * {
 
 .nav-item {
     font-size: 1.25rem;
+    letter-spacing: 1px;
     font-weight: bolder;
 }
 
@@ -44,7 +45,7 @@ svg {
     height: 64px;
     width:auto;
     max-width: 64px;
-    fill: rgb(135,149,118);
+    fill: #869575;
 }
 
 .icons > * > p{
