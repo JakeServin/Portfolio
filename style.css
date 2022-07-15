@@ -9,6 +9,7 @@ body > * {
 
 .nav-item {
     font-size: 1.25rem;
+    font-weight: bolder;
 }
 
 .aboutText > p {
@@ -70,4 +71,15 @@ svg {
 .contact-icon {
     fill: grey;
     max-width: 32px;
+}
+
+@media (max-width: 540px ) {
+    #title {
+    font-size: 3rem;
+    }
+    #subtitle {
+        font-size: 1.25rem;
+    }
+
+
 }
