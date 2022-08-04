@@ -46,9 +46,9 @@ p {
 }
 
 svg {
-    height: 64px;
+    height: 80px;
     width:auto;
-    max-width: 64px;
+    max-width: 80px;
     fill: #869575;
 }
 
@@ -96,11 +96,11 @@ svg {
 
 }
 
-.grow { transition: all .2s ease-in-out; }
+.grow { transition: all .4s ease; }
 .grow:hover { transform: scale(1.2); z-index: 1; }
 
-.projectGrow { transition: all .2s ease-in-out; }
+.projectGrow { transition: all .5s ease; }
 .projectGrow:hover { transform: scale(1.05); z-index: 1; }
 
-.iconGrow { transition: all .2s ease-in-out; }
+.iconGrow { transition: all .5s ease; }
 .iconGrow:hover { transform: scale(1.1); z-index: 1; }
