@@ -43,6 +43,8 @@ p {
     border-radius: 400px;
     height: auto;
     max-width: 350px;
+    max-height: 350px;
+    object-fit: cover;
 }
 
 svg {
